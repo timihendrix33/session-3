@@ -3,8 +3,8 @@
 Today we continue to work with NPM, responsive design and start looking at Expressjs - exploring some of its capabilities.
 
 ##Homework
-* add Express to your homework project
-* upload a repo to github
+* download this repo and review the steps below
+* upload a finished version to github
 
 ##NPM Review
 
@@ -877,5 +877,3 @@ Suggested clients: Cyberduck, FileZilla
 
 
 
-https://zellwk.com/blog/crud-express-mongodb/
-https://zellwk.com/blog/crud-express-and-mongodb-2/
