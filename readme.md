@@ -3,8 +3,12 @@
 Today we continue to work with NPM, responsive design and start looking at Expressjs - exploring some of its capabilities.
 
 ##Homework
-* download this repo and review the steps below
-* upload a finished version to github
+
+* download this repo and review the steps below - try to get the communication between the form and mLab working. 
+
+* upload a finished version to github (remember to use a .gitignore file)
+
+* see the session-3-work (working branch) repo for an example of a working repo.
 
 ##NPM Review
 
