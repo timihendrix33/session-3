@@ -672,7 +672,7 @@ Create a free account with MongoLab. Once you’re done, create a new MongoDB da
 
 Once you’re done creating the deployment, click into it and create a database user and database password. 
 
-[["https://github.com/mean-spring-2017/session-3/blob/master/notes/mlab-user.png"]]
+![user]("https://github.com/mean-spring-2017/session-3/blob/master/notes/mlab-user.png")
 
 Remember these because you’re going to use it to connect the database you’ve just created.
 
