@@ -674,7 +674,6 @@ Once you’re done creating the deployment, click into it and create a database 
 
 ![user](https://github.com/mean-spring-2017/session-3/blob/master/notes/mlab-user.png)
 ![user](https://github.com/mean-spring-2017/session-3/blob/master/notes/mlab-user2.jpg)
-![user](https://github.com/mean-spring-2017/session-3/blob/master/notes/mlab-user3.jpg)
 
 Remember these because you’re going to use it to connect the database you’ve just created.
 
