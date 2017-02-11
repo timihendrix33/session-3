@@ -670,7 +670,11 @@ The next part is to get the correct link to our database. For our first attempt 
 
 Create a free account with MongoLab. Once you’re done, create a new MongoDB database and set the plan to sandbox (free) and call it bcl.
 
-Once you’re done creating the deployment, click into it and create a database user and database password. Remember these because you’re going to use it to connect the database you’ve just created.
+Once you’re done creating the deployment, click into it and create a database user and database password. 
+
+[["https://github.com/mean-spring-2017/session-3/blob/master/notes/mlab-user.png"]]
+
+Remember these because you’re going to use it to connect the database you’ve just created.
 
 Finally, grab the MongoDB url and add it to your MongoClient.connect method. Make sure you use your database user and password!
 
