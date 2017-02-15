@@ -1,0 +1,44 @@
+$breakpoints: (
+    'break-one'  : 22.5em,
+    'break-two'  : 46.25em,
+    'break-three': 61.25em,
+    'break-four' : 71.25em,
+    'break-five' : 81.25em
+);
+@mixin respond-to-max($breakpoint) {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @if $value != null {
+        @media(max-width: $value) {
+            @content;
+        }
+    }
+}
+@mixin respond-to-max($breakpoint) {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @if $value != null {
+        @media(max-width: $value) {
+            @content;
+        }
+    }
+}
+@mixin respond-to-min($breakpoint) {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @if $value != null {
+        @media(min-width: $value) {
+            @content;
+        }
+    }
+}
+@mixin respond-to-max-min($breakpoint1, $breakpoint2) {
+    $value1: map-get($breakpoints, $breakpoint1);
+    $value2: map-get($breakpoints, $breakpoint2);
+
+    @if $value1 != null && $value2 != null {
+        @media(max-width: $value1) and (min-width: $value2) {
+            @content;
+        }
+    }
+}

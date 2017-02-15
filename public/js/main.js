@@ -35,13 +35,28 @@ window.onhashchange = function () {
   <h2>${newContent[0].header}</h2>
   <p>${newContent[0].content}</p>
   `;
+  document.body.classList.remove('show');  
+}
+// hey babel
+//use logo as menu button
+
+// $0.classList
+
+// window.matchMedia('only screen and (max-width: 700px)')
+
+// window.matchMedia('only screen and (max-width: 700px)').matches
+
+const logo = document.querySelector('.logo');
+if(document.documentElement.clientWidth <= 740) {
+  logo.addEventListener('click', showMenu)
 }
 
-
-
-
-
-
+function showMenu(e){
+  if (window.matchMedia('only screen and (max-width: 740px)')) {
+    document.body.classList.toggle('show');
+  }
+  e.preventDefault();
+}
 
 
 
